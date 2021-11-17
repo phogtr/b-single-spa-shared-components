@@ -4,6 +4,18 @@
     "jsx": "react-jsx",
     "declarationDir": "dist"
   },
+  "forceConsistentCasingInFileNames": true,
+  "removeComments": true,
+  "isolatedModules": true,
+  "strict": true,
+  "noImplicitAny": true,
+  "strictNullChecks": true,
+  "strictFunctionTypes": true,
+  "noImplicitThis": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "noImplicitReturns": true,
+  "noFallthroughCasesInSwitch": true,
   "files": ["src/react-mf-shared-components.tsx"],
   "include": ["src/**/*"],
   "exclude": ["src/**/*.test*"]
